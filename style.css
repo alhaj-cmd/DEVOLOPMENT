@@ -3,19 +3,18 @@ body{
     
 }
 .orange-highlight{
-    color:orange ;}
-
-    
+    color:orange ;
+}
 .area{
     width: 46%;
     float: left;
     margin-left: 2%;
     padding-left: 1%;
-    height: 10%;
+
 }
 .area .heading img{
-    width: 70%;
-    padding: 10px;
+    width: 50%;
+    padding-top: 30px;
 }
 
 .link-button {
@@ -25,22 +24,16 @@ body{
     border-radius: 5px;
     font-weight: 400;
     color:wheat;
-}
-.head{
-    text-decoration: none;
-    padding:  5px 5px;
-    border-radius: 10px;
-    
+    overflow: hidden;
+    display: inline;
 }
 h1{
-    color: red;
-}
-.top h1 {
-    text-align: center; 
-    
 
     
 }
+.top h1 {
+    text-align: center; 
+    }
 section {
     height: 300px;
     padding-bottom: 200px;
@@ -64,10 +57,9 @@ section {
     text-align: justify;
     text-decoration: 1px;
 }
-#baby{ border-left: 7px solid;
-    border-image: linear-gradient(150deg,blue,cyan);
-    border-image-slice: 1;
-
+.mean{
+    clear:both;
+    background-image: linear-gradient(45deg,rgb(183, 182, 204),rgb(235, 234, 240));
 }
 .array-c{
     text-size-adjust: 10px;
@@ -81,7 +73,34 @@ section {
 
 
 }
-.array-a{
-    float: right;
-   
+.array-a {
+    float:right;
+   display:inline;
+}
+.navber{
+
+	padding: 5px;
+	float: right;
+	width: 60%
+
+}
+.navber a{
+	float: left;
+	text-align: center;
+	font-size: 18px;
+	color: brown;
+	text-decoration: none;
+	padding: 20px 10px;
+}
+.wright{
+    text-align: justify;
+    background-color:oldlace;
+    padding-left: 2%;
+}
+.wright h3{
+    text-align: center;
+}
+.last{
+    text-align-last: center;
+    
 }
